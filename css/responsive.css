@@ -1,0 +1,246 @@
+@media screen and (max-height:800px){
+}
+@media screen and (max-height:700px){
+}
+@media screen and (max-width:1700px){
+}
+@media screen and (max-width:1450px){
+	.header{ padding: 50px 0 68px;}
+	.header__font strong{ font-size: 42px;}
+	.header__font .logo{ margin: 0 50px;}
+	.about__title{ margin-bottom: 22px;}
+	.about__title strong{ font-size: 28px; margin-bottom: 10px;}
+	.profile__title strong{ font-size: 26px; margin-bottom: 10px;}
+	.profile__title:before{ height: 110px;}
+	.profile__text{ padding: 40px 45px 50px;}
+	.speech__title:before{ height: 8px;}
+	.environment{ padding: 70px 0;}
+} 
+@media screen and (max-width:1350px){
+}
+@media screen and (max-width:1280px){
+	.inner{ width: 90%;}
+	.header__nav{ margin-left: -45%;}
+	.video-banner .slick-arrow.slick-prev{ left: -58px;}
+	.video-banner .slick-arrow.slick-next{ right: -58px;}
+	.pbanner__content{ margin-left: -45%;}
+	.honorli{ width: calc(100% + 50px); margin-left: -25px;}
+	.honorli li{ margin-bottom: 40px;}
+	.honorli li figure{ margin: 0 25px;}
+}
+@media screen and (max-width:1200px){
+	.saying{ margin-left: 40px;}
+	.friendship__item{ margin-left: 60px;}
+	.commonwidth{ width: 90%;}
+	.introduct__item figure img{ width: auto; height: 100%;}
+}
+@media screen and (max-width:1100px){
+	.saying .say__font{ width: 40px;}
+	.saying .say__font1{ margin-left: 20px;}
+	.home-nav{ margin-top: 0; width: 250px;}
+	.home-nav .home-nav__bg{ width: 100%;}
+	.nav__item b{ width: 56px; height: 56px; font-size: 22px; line-height: 56px;}
+	.nav__item span{ width: 65px; font-size: 13px; height: 22px; line-height: 22px; margin-top: -5px;}
+	.nav__item b:before{ width: 48px; height: 48px;}
+	.nav__item b:after{ width: 40px; height: 40px;}
+	.nav__about{ left: 50px; top: 51px;}
+	.nav__news{ right: 50px; top: 51px;}
+	.nav__product{ left: 9px; top: 150px;}
+	.nav__service{ right: 9px; top: 150px;}
+	.nav__resources{ left: 50px; bottom: 21px;}
+	.nav__contact{ right: 50px; bottom: 21px;}
+	.video-banner .slick-arrow.slick-prev{ left: -25px;}
+	.video-banner .slick-arrow.slick-next{ right: -25px;}
+}
+@media screen and (max-width:1024px){
+	.header__nav{ width: 100%; margin-left: -50%;}
+	.header__font strong{ font-size: 35px;}
+	.header__font .logo{ width: 120px; margin: 0 34px;}
+	.saying{ margin-left: 24px;}
+	.video-banner{ width: 90%; margin: auto;} 
+	.video-banner .slick-list{ overflow: hidden;}
+	.home-video{ padding: 50px 0;}
+	.friendship__item{ margin-left: 30px;}
+	.about__title{ box-sizing: border-box; width: 280px; height: 155px; background-size: cover !important; margin-bottom: 0;}
+	.about__title strong{ font-size: 22px; margin-bottom: 6px;} 
+	.about__title b{ font-size: 20px;}
+	.pbanner__content small{ margin-top: 8px; font-size: 14px;}
+	.pbanner1 .pbanner__content{ margin-top: 0; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%);}
+	.pbanner__content img{ height: 40px;}
+	.profile__content p{ font-size: 14px;}
+	.introduct{ background-attachment: local; padding: 50px 0;}
+	.speech__right{ margin-right: 0;}
+	.speech{ padding: 50px 0;}
+	.speech-wapper{ padding: 36px 40px;}
+	.culture{ padding: 78px 0 140px; background-attachment: local;}
+	.culture__banner{ margin-top: 0; width: 58%;}
+	.culture__inner{ padding: 30px 40px 42px;}
+	.culture__item p{ height: auto; margin-bottom: 14px; font-size: 20px;}
+	.culture__inner .slick-arrow.slick-next{ left: 92px;}
+	.culture{ padding: 50px 0;}
+	.honor{ padding: 50px 0; width: 90%;}
+	.environment__title{ float: none;}
+	.environment{ padding: 50px 0; background-attachment: local;}
+	.environmentli{ margin-left: 0; width: calc(100% + 20px); margin-left: -10px;}
+	.environmentli li figure{ margin: 10px;}
+	.technologicals{ width: 100%;}
+	.d_prev, .d_next{ display: none;}
+	.technological{ padding: 50px 0;}
+	.technologicals{ height: auto; padding-top: 40px;}
+	.technologicals .techonoimg li{ margin-right: 2%; position: static; margin-top: 16px; float: left; width: 32%;}
+	.technologicals .techonoimg li:nth-child(3n+3){ margin-right: 0;}
+	.honorli li{ width: 33.333%;}
+	.honor-list{ padding: 50px 0;}
+} 
+@media screen and (max-width:861px){
+	.home-news{ width: 100%; margin-top: 32px;}
+	.saying{ float: right;}
+	.main__wapper{ display: flex; display: -webkit-flex; justify-content: center; -webkit-justify-content: center; flex-wrap: wrap; -webkit-flex-wrap: wrap;} 
+	.home-nav{ height: 320px;}
+	.friendship__item{ margin-left: 20px;}
+	.friendship{ display: none;}
+	.footer__top{ padding: 30px 0;}
+	.footer__contact{ float: none; text-align: center;}
+	.footer__address{ margin-bottom: 16px;}
+	.footer__shape{ display: flex; display: -webkit-flex; justify-content: center; -webkit-justify-content: center;}
+	.footer__bottom{ background: #fff; padding-top: 0;}
+	.footer__allow{ float: none; display: flex; display: -webkit-flex; justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;}
+	.footer__allow span{ margin-right: 5px;}
+	.footer__edite{ float: none; display: flex; display: -webkit-flex; justify-content: center; -moz-justify-content: center; -webkit-justify-content: center;}
+	.footer__allow a{ color: #707070;}
+	.leval-menus{ width: 100%; padding: 0 12px; box-sizing: border-box; overflow-x: auto; line-height: 0; overflow-y: hidden;}
+	.leval-menu__list{  display: inline-flex; -webkit-display: inline-flex; -moz-display: inline-flex; -webkit-overflow-scrolling: touch;}
+	.leval-menu__list li{ margin-left: 40px;}
+	.leval-menu__list li a{ font-size: 14px; height: 60px; line-height: 60px; width: 75px;}
+	.leval-menu__list li a:before{ width: 60px; height: 60px; background-size: cover; margin-left: -30px; margin-top: -30px;}
+	.speech__left{ width: 58%;}
+	.speech__title:before{ width: 110px; right: -88px;}
+	.culture__banner{ width: 65%;}
+	.honor__wapper{ padding: 42px 32px 14px;}
+	.honor__title{ margin-bottom: 30px;}
+	.honor__list li figure a{ width: 150px; height: 150px;}
+	.honor__list li{ margin-bottom: 25px;}
+}
+@media screen and (max-width:751px){
+	.introduct__banner{ width: 100%;}
+	.profile{ width: 100%; margin-top: 28px;}
+	.profile__title{ margin-bottom: 24px;}
+	.honor__list li{ width: 50%;}
+	.honor__list li figure span{ font-size: 14px;}
+}
+@media screen and (max-width:641px){
+	.header{ padding: 34px 0 50px;}
+	.header__font{ display: flex; display: -webkit-flex; justify-content: center; -webkit-justify-content: center; align-items: center; -webkit-align-items: center;}
+	.header__font strong{ font-size: 24px;}
+	.header__font .logo{ width: 88px; margin: 0 24px;}
+	.main{ padding: 40px 0;}
+	.home-video{ padding: 40px 0;}
+	.videos__btn{ width: 52px; height: 52px; margin-left: -26px; margin-top: -26px;}
+	.videos__btn i{ font-size: 16px; height: 16px;}
+	.video-banner .slick-arrow{ margin-top: -46px; width: 44px; height: 44px;}
+	.video-banner .slick-arrow.slick-prev{ left: -22px;}
+	.video-banner .slick-arrow.slick-next{ right: -22px;}
+	.footer__edite{ display: block; text-align: center;}
+	.footer__edite p, .footer__edite a{ float: none;}
+	.footer__edite p{ text-align: center;}
+	.footer__edite a{ display: inline-block; margin: auto;}
+	.about__title{ display: none;}
+	.leval-menu__list li{ margin-left: 20px;}
+	.leval-menu__list li a{ height: 54px; line-height: 54px;}
+	.leval-menu__list li a:before{ width: 54px; height: 54px; margin-left: -27px; margin-top: -27px;}
+	.introduct{ padding: 38px 0;}
+	.profile__text{ padding: 30px 30px;}
+	.profile__title:before{ height: 90px;}
+	.profile__title strong{ font-size: 22px;}
+	.profile__title small{ font-size: 14px;}
+	.profile__title{ margin-bottom: 24px; padding-left: 0;}
+	.profile__title:before{ display: none;}
+	.speech__left{ width: 100%; border-radius: 0 0 0 40px;}
+	.speech__item p{ font-size: 14px; margin-bottom: 20px;}
+	.speech-wapper{ padding: 38px 30px 50px;}
+	.speech__right{ width: 100%; padding-top: 40px;}
+	.speech__img{ text-align: center;}
+	.speech{ padding: 38px 0;}
+	.speech__img img{ width: auto; max-width: 88%; margin: auto;}
+	.culture__title{ width: 100%;}
+	.culture__banner{ width: 100%;} 
+	.culture{ padding-top: 38px;}
+	.culture__inner{ padding: 24px 28px 36px;}
+	.culture__inner .slick-arrow.slick-next{ left: 73px;}
+	.culture__banner{ border-radius: 0 30px 0 0;}
+	.slick-arrow, .pswp__button--arrow--left, .pswp__button--arrow--right{ width: 44px; height: 44px; margin-top: -22px;}
+	.introduct__item.slick-current span:before{ height: 80px;}
+	.introduct__banner .slick-arrow{ bottom: 88px;}
+	.culture__inner .slick-arrow{ bottom: -22px;}
+	.honor__wapper:before{ border-radius: 0 30px 0 0;}
+	.honor{ padding: 38px 0;}
+	.honor__banner .slick-dots{ padding: 14px 28px;}
+	.honor__wapper:before{ bottom: 31px;}
+	.environmentli li{ width: 50%;}
+	.environmentli li figure:hover{ border-radius: 0 30px 0 0;}
+	.environment{ padding: 38px 0;}
+	.technologicals{ padding-top: 0;}
+	.technological{ padding: 38px 0;}
+	.technological__title{ margin-bottom: 12px;}
+	.honor-list{ padding: 38px 0;}
+	.honorli{ width: 100%; margin-left: 0;}
+	.honorli li{ width: 48%;}
+	.honorli li:nth-child(2n+2){ float: right;}
+	.honorli li figure{ margin: 0; height: 210px;}
+} 
+@media screen and (max-width:520px){
+	
+}
+@media screen and (max-width:481px){
+	.header{ padding: 22px 0 40px;}
+	.header__nav li a{ font-size: 14px; padding-bottom: 12px;}
+	.header__nav li a:before{ height: 4px;}
+	.header__font strong{ font-size: 22px;}
+	.header__font .logo{ width: 78px;}
+	.header__nav li a:before{ width: 94%; left: 50%; margin-left: -47%;}
+	.saying .say__font,.saying small{ display: none;}
+	.saying .say__iphone{ display: block; margin-top: 20px;}
+	.home-news{ margin-top: 20px;}
+	.main{ padding: 32px 0;}
+	.nav__item span{ font-size: 12px;}
+	.home-news__text{ padding-left: 0; border-left: none;}
+	.home-news__text h3{ font-size: 15px; height: 54px;}
+	.video-banner .slick-arrow.slick-prev{ left: -15px;}
+	.video-banner .slick-arrow.slick-next{ right: -15px;}
+	.home-video{ padding: 32px 0;}
+	.videos__btn{ width: 46px; height: 46px; margin-left: -23px; margin-top: -23px;}
+	.videos .video__name{ font-size: 14px; margin-top: 20px;}
+	.video-banner .slick-arrow{ margin-top: -43px;}
+	.footer__address b{ font-size: 24px; margin-bottom: 10px;}
+	.footer__shape a{ width: 50px;}
+	.footer__top{ padding-bottom: 15px;}
+	.pbanner__content img{ height: auto; width: auto; max-width: 100%;}
+	.pbanner__content small{ margin-top: 3px;}
+	.speech__item p{ margin-bottom: 12px;}
+	.speech__tab .slick-dots li{ margin-right: 20px;}
+	.culture__item p{ font-size: 18px; margin-bottom: 10px;}
+	.culture__item strong{ font-size: 14px; height: 36px; line-height: 36px; margin-bottom: 12px;}
+	.honor__wapper{ padding: 30px 24px 14px;}
+	.honor__list li{ margin-bottom: 16px;}
+	.honor__list li figure a{ width: 100px; height: 100px; border: 3px solid #FEF000;}
+	.honor__list li figure span{ padding: 0 10px;} 
+	.environmentli li figure{ margin: 5px;}
+	.environmentli{ width: calc(100% + 10px); margin-left: -5px;}
+	.environmentli li figure span{ font-size: 14px;}
+	.technologicals .techonoimg li{ width: 48.5%; margin-right: 0;}
+	.technologicals .techonoimg li:nth-child(2n+2){ float: right;}
+	.checkmore{ margin-top: 30px;}
+	.checkmore a{ width: 140px; height: 52px; line-height: 52px;}
+	.honorli li{ margin-bottom: 20px;}
+	.backmore{ margin-top: 0;}
+} 
+@media screen and (max-width:400px){
+	.header__font strong{ font-size: 20px;}
+	.header__font .logo{ margin: 0 15px;}
+	.header__nav li a{ font-size: 13px;}
+}
+@media screen and (max-width:350px){
+	.header__nav li a{ font-size: 12px;}
+	.header__font strong{ font-size: 18px;}
+}
+	
