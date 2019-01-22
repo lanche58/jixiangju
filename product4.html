@@ -49,70 +49,18 @@
 		<section class="leval-menus">
 			<ul class="leval-menu__list clearfix">
 				<li><a href="product.html">品牌故事</a></li>
-				<li class="active"><a href="product1.html">产品体验中心</a></li>
+				<li><a href="product1.html">产品体验中心</a></li>
 				<li><a href="product2.html">核心产品</a></li>
-				<li><a href="product4.html">电子商务</a></li>
+				<li class="active"><a href="product4.html">电子商务</a></li>
 			</ul>
         </section>
-        <section class="rr-pro-exp">
-			<div class="rr-pro-exp-t rr-pro-exp-bg">
-				<div class="rr-pro-exp-spec">
-					<div class="item"><a data-video-url="isvideo/video.mp4" data-video-image="img/a872455149d0aba8bdc4f2e7d73cf4bd.jpg" class="scapic v-btn">
-						<div class="rr-pai">
-							<img src="img/a872455149d0aba8bdc4f2e7d73cf4bd.jpg" alt="">
-							<i class="rr-video"></i>
-						</div>
-						<p class="rr-nowti">吉香居暴下饭怎么拌饭的</p>
-					</a></div>
-					<div class="item"><a data-video-url="isvideo/video.mp4" data-video-image="img/a872455149d0aba8bdc4f2e7d73cf4bd.jpg" class="scapic v-btn">
-						<div class="rr-pai">
-							<img src="img/a872455149d0aba8bdc4f2e7d73cf4bd.jpg" alt="">
-							<i class="rr-video"></i>
-						</div>
-						<p class="rr-nowti">吉香居暴下饭怎么拌饭的</p>
-					</a></div>
-				</div>
-			</div>
-			<!-- rr-pro-exp-t -->
-			<div class="inner">
-				<ul class="rr-pro-exp-list clearfix">
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-					<li><a data-video-url="isvideo/video.mp4" data-video-image="img/432.jpg" class="scapic v-btn">
-						<div class="rr-pai"><img src="img/432.jpg" alt=""></div>
-						<p class="rr-nowti">巧拌杏鲍菇</p>
-					</a></li>
-				</ul>
-				<!-- rr-pro-exp-list -->
-				<div class="rr-pager">
-					<a href="#" class="act">1</a>
-					<a href="#">2</a>
-					<a href="#">3</a>
-					<a href="#">4</a>
-					<a href="#">...</a>
-				</div>
-				<!-- rr-pager -->
-			</div>
-        </section>
-        <!-- rr-pro-exp -->
+        <section class="rr-pro-shops">
+			<ul class="inner">
+				<li><a href="#" class="rr-pro-exp-bg"><i class="ico" style="background-image: url(images/tm2.png);"></i><p>天猫旗舰店</p></a></li>
+				<li><a href="#" class="rr-pro-exp-bg"><i class="ico" style="background-image: url(images/jd2.png);"></i><p>京东旗舰店</p></a></li>
+			</ul>
+		</section>
+		<!-- rr-pro-shops -->
 		<section class="brand article-block">
 			<img src="images/font3.png" alt=""/>
 		</section>
@@ -195,60 +143,9 @@
 			</section>
 		</footer>
 		<!--footer end-->
-		<div class="vwrap">
-			<div class="videobtg"></div>
-			<div class="videobox">
-				<div id="videobox"></div>
-				<div class="close"><i></i></div>
-			</div>
-		</div>
-		<!-- vwrap -->
 		<script src="js/animatext.min.js"></script>
 		<script src="js/plugin.js"></script>
-		<script src="js/video/player.mini.js"></script>
-		<script src="js/page.js"></script>
-		<script>
-			$(function(){
-				var objplay;
-				var Video = {
-					load: function (objs) {
-						objplay = jwplayer(objs.vcontainer).setup({
-							flashplayer: 'js/video/flashplay.swf',
-							html5player: 'js/video/html5player.js',
-							file: objs.vfiles,
-							image: objs.vfimg,
-							width: '100%',
-							height: '100%',
-							aspectratio: '16:9',
-							stretching: 'fill',
-							controls: 'true',
-							autostart: objs.isautoplay
-						});
-						return objplay;
-					}
-				};
-				$('.vwrap .close,.vwrap .videobtg').bind(_click,function(){
-					objplay.stop(); 
-					$('.vwrap').hide();
-					$('#videobox').html('');
-				});
-				$('.v-btn').bind(_click,function(e){
-					e.stopPropagation();
-					e.preventDefault();
-					var img = $(this).attr('data-video-image');
-					var video = $(this).attr('data-video-url');
-					Video.load({
-						vcontainer: 'videobox',
-						vfimg: img,
-						vfiles: video,
-						isautoplay: 'true'
-					});
-					$('.vwrap').fadeIn();
-				});
-				$('.rr-pro-exp-spec').slick();
-				// $('.rr-pro-exp-spec').slick();
-			})
-		</script>  
+		<script src="js/page.js"></script> 
 	</body>
 
 </html>
