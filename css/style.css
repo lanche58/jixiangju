@@ -27,17 +27,17 @@ html { font-size: 100%; overflow-x: hidden;}
 /* always display scrollbars */
 body { font: 12px/1.8 "Microsoft YaHei New","Microsoft Yahei","微软雅黑","Hiragino Sans GB","冬青黑体","Arial","Helvetica","SimHei","黑体","STXihei","华文细黑",sans-serif; margin: 0 auto; color: #666; background-color: #fff; _background-attachment:fixed; 
 _background-image:url(about:blank); overflow-y:visible\9; overscroll-behavior-y: none;}
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
 	width: 6px;
 	background-color: #fff
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
 	border-radius: 6px;
 	background-color: #fff
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
 	border-radius: 0px;
 	background-color: #066b31;
 }
@@ -219,7 +219,7 @@ a:active, a:hover { text-decoration: none; color:inherit;}
 .saying.article-block small{ opacity: 0; visibility: hidden; transition: 0.8s 0.55s;}
 .saying.articleShow small{ opacity: 1; visibility: visible;}
 
-.home-news.article-block:before{ content: ""; width: 100%; height: 100%; background: #03734b; position: absolute; left: 0; top: 0; transform: translateY(-100%); -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); z-index: 6; animation:1s linear; -webkit-animation:1s linear; -moz-animation:1s linear;-webkit-animation-fill-mode: both;animation-fill-mode: both; -webkit-backface-visibility: visible !important; backface-visibility: visible !important;  -webkit-animation-name: fadedown;  animation-name: fadedown;}  
+.home-news.article-block:before{ content: ""; width: 100%; height: 100%; background: #03734b; position: absolute; left: 0; top: 0; transform: translateY(-100%); -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); z-index: 6; animation:1s linear; -webkit-animation:1s linear; -moz-animation:1s linear;-webkit-animation-fill-mode: both;animation-fill-mode: both; -webkit-backface-visibility: visible !important; backface-visibility: visible !important;  -webkit-animation-name: fadedown;  animation-name: fadedown; display: none\9; }  
 .home-news.articleShow:before{ opacity: 1; visibility: visible; transition: 0.8s 0.65s;}
 .home-news.article-block a{ display: block; opacity: 0; visibility: hidden;}
 .home-news.articleShow a{ opacity: 1; visibility: visible; transition: 0.8s 0.4s;}
@@ -510,7 +510,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aafd71', end
 .pbanner__content.article-block small{ transition-delay: 0.15s;}
 .pbanner__content.articleShow img,.pbanner__content.articleShow small{ opacity: 1; visibility: visible; transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0);}
 
-.news{ padding: 80px 0; background: linear-gradient(177deg,rgba(166,253,106,1) 0%,rgba(6,147,55,1) 100%);}
+.news{ padding: 80px 0; background: #069337; background: linear-gradient(177deg,rgba(166,253,106,1) 0%,rgba(6,147,55,1) 100%);}
 .news__swipert{ position: relative;}
 .news__item{ width: 100%; float: left; position: relative;}
 .news__item figure{ display: block; width: 480px; overflow: hidden; float: left; line-height: 1;}

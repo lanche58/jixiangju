@@ -140,6 +140,27 @@ $('.header__font strong').animatext({
 	infinite: true
 });
 
+$('#top').bind(_click, function() {
+	$('html,body').stop().animate({scrollTop: 0}, 800);
+});
+
+$('#mnav').on(_click, function() {
+	$('.rr-nav-modi').addClass('show');
+});
+
+$('.rr-nav-modi .close').on(_click, function() {
+	$('.rr-nav-modi').removeClass('show');
+});
+
+$(window).scroll(function() {
+	var st = $(window).scrollTop();
+	if (st > w_height*0.3) {
+		$('.rr-fix-mobi').addClass('show');
+	} else {
+		$('.rr-fix-mobi').removeClass('show');
+	}
+});
+
 jQuery(window).load(function(){
     jQuery('.article-block').delay(300).scrollClass();
 });
